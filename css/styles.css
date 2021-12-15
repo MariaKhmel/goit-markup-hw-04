@@ -144,8 +144,8 @@ header {
   margin-right: 50px;
 }
 
-.contact-nav .list-link:hover,
-.contact-nav .list-link:focus {
+.contact-nav:hover .list-link,
+.contact-nav:focus .list-link {
   color: var(--accent-text-color);
 }
 
@@ -281,7 +281,7 @@ header {
 }
 
 .social-link .social-icon {
-  fill: var(--icons-color);
+  fill: var(--secondary-accent-color);
 }
 
 .social-link:hover .social-icon,
@@ -297,6 +297,15 @@ header {
   display: flex;
 }
 
+.title-team {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 .team-list .list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -403,9 +412,11 @@ a {
   padding-bottom: 60px;
 
   display: flex;
+  
 }
 .footer-box{
   display: flex;
+  align-items: baseline;
   }
 }
 .contacts {
@@ -432,7 +443,7 @@ a {
 }
 
 .follow {
-  align-items: center;
+  align-items: baseline;
   margin-left: 70px;
 }
 .follow-title {
@@ -470,6 +481,7 @@ a {
 }
 .social-icon {
   fill: var(--secondary-accent-color);
+  
 }
 /* Portfolio */
 
