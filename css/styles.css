@@ -280,7 +280,7 @@ align-items: center;
 }
 
 .social-link .social-icon {
-  fill: var(--icons-color);
+  fill: var(--secondary-accent-color);
 }
 
 .social-link:hover .social-icon,
